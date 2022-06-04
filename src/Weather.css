@@ -1,0 +1,13 @@
+.weather {
+  text-align: center;
+}
+
+li {
+  list-style: none;
+}
+
+.image-icon {
+  display: block;
+  height: 100px;
+  padding-top: 0px;
+}

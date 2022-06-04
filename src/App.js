@@ -1,9 +1,14 @@
 import "./App.css";
+import Weather from "./Weather";
+import "bootstrap/dist/css/bootstrap.css";
 
 export default function App() {
   return (
     <div className="App">
-      <header className="App-header">Weather App</header>
+      <div className="container">
+        <header className="App-header">Weather App</header>
+        <Weather />
+      </div>
       <footer>
         This project was coded by Veronika and is{" "}
         <a
